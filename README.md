@@ -13,4 +13,8 @@ Este é um projeto de **Cardápio Digital** focado em acessibilidade para pessoa
 - Hospedagem: Vercel
 
 ## 📌 Como usar
+<<<<<<< HEAD
 Basta abrir o link do projeto, escolher uma voz no topo da página e deslizar o dedo sobre os itens do menu.
+=======
+Basta abrir o link do projeto, escolher uma voz no topo da página e deslizar o dedo sobre os itens do menu.
+>>>>>>> b1e89e5db0508387c11bdeb0b551ae25fba53f2d
