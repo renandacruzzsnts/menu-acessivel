@@ -1,0 +1,100 @@
+:root {
+    --bg-areia: #fbf9f1;
+    --azul-profundo: #001f5b;
+    --azul-claro: #e0f2f1;
+    --coral: #ff7043;
+    --branco: #ffffff;
+    --texto-suave: #546e7a;
+    --sombra: 0 4px 15px rgba(0, 31, 91, 0.08);
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: var(--bg-areia);
+    color: var(--azul-profundo);
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    text-align: center;
+    width: 100%;
+    max-width: 600px;
+    margin-bottom: 30px;
+}
+
+.logo-peixe {
+    width: 60px;
+    fill: var(--azul-profundo);
+    margin-bottom: 10px;
+}
+
+/* Estilização do Seletor de Voz */
+.voice-selector-container {
+    margin-top: 20px;
+    padding: 15px;
+    background: var(--branco);
+    border-radius: 10px;
+    box-shadow: var(--sombra);
+}
+
+.custom-select {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid var(--azul-claro);
+    margin-top: 10px;
+    color: var(--azul-profundo);
+}
+
+.menu-section {
+    width: 100%;
+    max-width: 600px;
+    margin-bottom: 30px;
+}
+
+h2 {
+    text-transform: uppercase;
+    font-size: 1rem;
+    letter-spacing: 2px;
+    border-bottom: 1px solid rgba(0,31,91,0.1);
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+}
+
+.card-item {
+    background: var(--branco);
+    padding: 20px;
+    border-radius: 12px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border-left: 4px solid transparent;
+    box-shadow: var(--sombra);
+}
+
+.card-item:hover, .card-item:focus {
+    background: var(--azul-claro);
+    border-left-color: var(--coral);
+    transform: translateX(5px);
+    outline: none;
+}
+
+.item-info {
+    display: flex;
+    justify-content: space-between;
+    font-weight: 600;
+}
+
+.price { color: var(--coral); }
+
+.item-desc {
+    font-size: 0.85rem;
+    color: var(--texto-suave);
+    margin-top: 8px;
+}
+
+footer { margin-top: 40px; font-size: 0.8rem; color: #999; }

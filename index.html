@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oceânico - Cardápio Acessível</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <div class="logo-container">
+            <svg class="logo-peixe" viewBox="0 0 100 100">
+                <path d="M90,50 C90,65 75,80 50,80 C25,80 10,65 10,50 C10,35 25,20 50,20 C75,20 90,35 90,50 Z M50,30 C35,30 25,38 25,50 C25,62 35,70 50,70 C65,70 75,62 75,50 C75,38 65,30 50,30 Z M82,50 C82,51 81,52 80,52 C79,52 78,51 78,50 C78,49 79,48 80,48 C81,48 82,49 82,50 Z M90,50 L98,40 L98,60 L90,50 Z"></path>
+            </svg>
+        </div>
+        <h1>Cardápio Oceânico</h1>
+        
+        <div class="voice-selector-container">
+            <label for="voiceSelect">Voz do Narrador:</label>
+            <select id="voiceSelect" class="custom-select">
+                <option value="">Carregando vozes...</option>
+            </select>
+        </div>
+    </header>
+
+    <main id="cardapio">
+        
+        <section class="menu-section">
+            <h2>Entradas e Petiscos</h2>
+            
+            <article class="card-item" tabindex="0">
+                <div class="item-info"><span class="item-name">Ostras e borbulhas</span><span class="price">R$ 59,00</span></div>
+                <p class="item-desc">3 unidades e 1 taça de espumante</p>
+            </article>
+
+            <article class="card-item" tabindex="0">
+                <div class="item-info"><span class="item-name">Ceviche de peixe</span><span class="price">R$ 74,00</span></div>
+                <p class="item-desc">Com torradinhas de fermentação natural</p>
+            </article>
+
+            <article class="card-item" tabindex="0">
+                <div class="item-info"><span class="item-name">Espetinho de camarão</span><span class="price">R$ 39,00</span></div>
+                <p class="item-desc">Com molho pesto e tomatinhos</p>
+            </article>
+
+            <article class="card-item" tabindex="0">
+                <div class="item-info"><span class="item-name">Espetinho de peixe</span><span class="price">R$ 36,00</span></div>
+                <p class="item-desc">Com aioli de alho defumado e tomatinhos</p>
+            </article>
+
+            <article class="card-item" tabindex="0">
+                <div class="item-info"><span class="item-name">Espetinho de polvo</span><span class="price">R$ 44,00</span></div>
+                <p class="item-desc">Com aioli de sriracha e tomatinhos</p>
+            </article>
+
+            <article class="card-item" tabindex="0">
+                <div class="item-info"><span class="item-name">Espetinho de cordeiro</span><span class="price">R$ 36,00</span></div>
+                <p class="item-desc">Com aioli de alho defumado e vinagrete</p>
+            </article>
+
+            <article class="card-item" tabindex="0">
+                <div class="item-info"><span class="item-name">Espetinho de costela (bananinha)</span><span class="price">R$ 29,00</span></div>
+                <p class="item-desc">Com vinagrete e farofinha</p>
+            </article>
+
+            <article class="card-item" tabindex="0">
+                <div class="item-info"><span class="item-name">Espetinho de filé mignon</span><span class="price">R$ 34,00</span></div>
+                <p class="item-desc">Com vinagrete e farofinha</p>
+            </article>
+
+            <article class="card-item" tabindex="0">
+                <div class="item-info"><span class="item-name">Bolinho de bacalhau</span><span class="price">R$ 24,00</span></div>
+                <p class="item-desc">Unidade</p>
+            </article>
+
+            <article class="card-item" tabindex="0">
+                <div class="item-info"><span class="item-name">Isca de peixe empanada</span><span class="price">R$ 89,00</span></div>
+                <p class="item-desc">Com aioli de alho defumado</p>
+            </article>
+
+            <article class="card-item" tabindex="0">
+                <div class="item-info"><span class="item-name">Patê de peixe defumado</span><span class="price">R$ 24,00</span></div>
+                <p class="item-desc">Nori e casquinha de parmesão</p>
+            </article>
+        </section>
+
+        <section class="menu-section">
+            <h2>Para Compartilhar</h2>
+            
+            <article class="card-item" tabindex="0">
+                <div class="item-info"><span class="item-name">Peixe do dia</span></div>
+                <p class="item-desc">Para 2 pessoas: R$ 189. Para 3 pessoas: R$ 269. Para 4 pessoas: R$ 339.</p>
+            </article>
+
+            <article class="card-item" tabindex="0">
+                <div class="item-info"><span class="item-name">Adicional de Camarão VM (200g)</span><span class="price">+ R$ 59,00</span></div>
+                <p class="item-desc">Adicione camarão com casca ao seu peixe do dia</p>
+            </article>
+
+            <article class="card-item" tabindex="0">
+                <div class="item-info"><span class="item-name">Camarão VM com casca</span><span class="price">R$ 198,00</span></div>
+                <p class="item-desc">Arroz branco, ceviche de banana da terra, molho gremolata e farofa</p>
+            </article>
+
+            <article class="card-item" tabindex="0">
+                <div class="item-info"><span class="item-name">Picanha</span><span class="price">R$ 229,00</span></div>
+                <p class="item-desc">Arroz branco, vinagrete, farofa, fritas e molho chimichurri</p>
+            </article>
+        </section>
+
+        <section class="menu-section">
+            <h2>Pratos Individuais</h2>
+            
+            <article class="card-item" tabindex="0">
+                <div class="item-info"><span class="item-name">Polvo com legumes</span><span class="price">R$ 109,00</span></div>
+                <p class="item-desc">Salada de tomatinhos e aioli de sriracha e alho defumado</p>
+            </article>
+
+            <article class="card-item" tabindex="0">
+                <div class="item-info"><span class="item-name">Filé de peixe com legumes assados</span><span class="price">R$ 96,00</span></div>
+                <p class="item-desc">E ceviche de banana da terra</p>
+            </article>
+
+            <article class="card-item" tabindex="0">
+                <div class="item-info"><span class="item-name">Filé de peixe com purê de banana</span><span class="price">R$ 96,00</span></div>
+                <p class="item-desc">E salada de tomatinhos</p>
+            </article>
+
+            <article class="card-item" tabindex="0">
+                <div class="item-info"><span class="item-name">Salada verde com camarão</span><span class="price">R$ 79,00</span></div>
+                <p class="item-desc">Gomos de laranja, nozes, molho pesto e parmesão</p>
+            </article>
+
+            <article class="card-item" tabindex="0">
+                <div class="item-info"><span class="item-name">Filé mignon com fritas e arroz</span><span class="price">R$ 98,00</span></div>
+            </article>
+
+            <article class="card-item" tabindex="0">
+                <div class="item-info"><span class="item-name">Prato Infantil</span><span class="price">R$ 49,00</span></div>
+                <p class="item-desc">Arroz, feijão, fritas e filé mignon ou isca de peixe</p>
+            </article>
+        </section>
+
+        <section class="menu-section">
+            <h2>Porções Extras</h2>
+            <article class="card-item" tabindex="0">
+                <div class="item-info"><span class="item-name">Arroz branco</span><span class="price">R$ 24,00</span></div>
+            </article>
+            <article class="card-item" tabindex="0">
+                <div class="item-info"><span class="item-name">Mix de legumes assados</span><span class="price">R$ 29,00</span></div>
+            </article>
+            <article class="card-item" tabindex="0">
+                <div class="item-info"><span class="item-name">Batata Frita</span><span class="price">R$ 39,00</span></div>
+            </article>
+            <article class="card-item" tabindex="0">
+                <div class="item-info"><span class="item-name">Purê de banana ou ceviche de banana</span><span class="price">R$ 29,00</span></div>
+            </article>
+            <article class="card-item" tabindex="0">
+                <div class="item-info"><span class="item-name">Salada verde</span><span class="price">R$ 34,00</span></div>
+            </article>
+            <article class="card-item" tabindex="0">
+                <div class="item-info"><span class="item-name">Torrada de fermentação natural</span><span class="price">R$ 10,00</span></div>
+            </article>
+        </section>
+
+        <section class="menu-section">
+            <h2>Sobremesas</h2>
+            <article class="card-item" tabindex="0">
+                <div class="item-info"><span class="item-name">Oi Pudim Gourmet</span><span class="price">R$ 34,00</span></div>
+            </article>
+            <article class="card-item" tabindex="0">
+                <div class="item-info"><span class="item-name">Churros com doce de leite</span><span class="price">R$ 36,00</span></div>
+            </article>
+            <article class="card-item" tabindex="0">
+                <div class="item-info"><span class="item-name">Brownie com gelato</span><span class="price">R$ 39,00</span></div>
+            </article>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>Desenvolvido por Renan • Projeto de Acessibilidade</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
